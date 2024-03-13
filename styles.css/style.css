@@ -1,0 +1,51 @@
+.text {
+  font-size: 10px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  cursor: pointer;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.test {
+  font-size: 1px;
+}
+
+.test {
+  font-size: 2px;
+}
+
+.test {
+  font-size: 3px;
+}
+
+.test {
+  font-size: 5px;
+}
+
+.test {
+  font-size: 6px;
+}
+
+.test {
+  font-size: 7px;
+}
+
+.test {
+  font-size: 8px;
+}
+
+/*Foundation*/
+/*Layout*/
+/*Object*/
+/*Component*/
+/*Project*/
+/*Utility*/
+/*# sourceMappingURL=style.css.map */
