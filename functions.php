@@ -25,8 +25,8 @@
         );
         wp_enqueue_style(
             'cssStyle',
-            get_template_directory_uri() . '../../styles.css/style.css',
-            filemtime(get_template_directory() . '../../styles.css/style.css'),
+            get_template_directory_uri() . '/styles.css/style.css',
+            filemtime(get_template_directory() . '/styles.css/style.css'),
             [],
             false,
         );
