@@ -13,9 +13,9 @@ html {
     -webkit-tap-highlight-color: transparent
 }
 
-body {
-    margin: 0, !important;
-}
+//body {
+//    margin: 0
+//}
 
 main {
     display: block
@@ -208,9 +208,9 @@ textarea {
     font: inherit
 }
 
-[type="number"] {
-    -moz-appearance: textfield
-}
+//[type="number"] {
+//-moz-appearance: textfield
+//}
 
 label[for] {
     cursor: pointer

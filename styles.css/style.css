@@ -26,10 +26,6 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-body {
-  margin: 0, !important;
-}
-
 main {
   display: block;
 }
@@ -223,10 +219,6 @@ textarea {
   font: inherit;
 }
 
-[type=number] {
-  -moz-appearance: textfield;
-}
-
 label[for] {
   cursor: pointer;
 }
@@ -275,8 +267,8 @@ th {
   font-size: 3px;
 }
 
-.test {
-  font-size: 5px;
+.c-bk_foot {
+  background: linear-gradient(to bottom, #531300, #AD6136);
 }
 
 .test {

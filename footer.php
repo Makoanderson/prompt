@@ -3,7 +3,7 @@
   <article class="p-nav">
     
   </article>
-  <article class="c-logo">
+  <article class="c-logo c-bk_foot">
     <figure>
         <img src="<?php echo esc_url(
                   get_template_directory_uri()
