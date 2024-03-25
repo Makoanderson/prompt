@@ -1,3 +1,12 @@
-.text {
-    font-size: 10px;
+$breakpoint: (
+    sp: 'screen and (max-width: 428px)',
+    tab: 'screen and (max-width: 768px)',
+    lpc: 'screen and (max-width: 1024px)',
+    max: 'screen and (max-width: 1980px)'
+);
+
+@mixin mq($bp) {
+    @media #{map-get($breakpoint, $bp)} {
+        @content;
+    }
 }
