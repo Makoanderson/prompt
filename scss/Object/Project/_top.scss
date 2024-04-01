@@ -1,0 +1,29 @@
+@use "../../Foundation/mixin";
+@use "../../Foundation/variable";
+
+.p-top {
+    &_txtcnt {
+        text-align: center;
+    }
+
+    &_lipadblc {
+        padding: 20px 10px !important;
+    }
+
+    &_pady {
+        padding-block: 64px;
+    }
+
+    &_padl14p {
+        padding-left: 14%;
+    }
+
+    &_padmy14p {
+        padding-inline: 14%;
+    }
+
+    &_padlb6414p {
+        padding-bottom: 64px;
+        padding-left: 14%;
+    }
+}

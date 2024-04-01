@@ -1,0 +1,12 @@
+@use "../../Foundation/mixin";
+@use "../../Foundation/variable";
+
+.u-w {
+    &_inner {
+        width: 920px;
+    }
+
+    &_sec2list {
+        width: 391px;
+    }
+}

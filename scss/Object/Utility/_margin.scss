@@ -1,2 +1,16 @@
 @use "../../Foundation/mixin";
 @use "../../Foundation/variable";
+
+.u-m {
+    &_mb64 {
+        margin-bottom: 64px;
+    }
+
+    &_mt64 {
+        margin-top: 64px;
+    }
+
+    &_mt5 {
+        margin-top: 5px;
+    }
+}

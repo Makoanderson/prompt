@@ -1,6 +1,12 @@
 @use "../../Foundation/mixin";
 @use "../../Foundation/variable";
 
-.test {
-    font-size: 8px;
+.u-disp {
+    &_flexblock {
+        display: flex;
+
+        @include mixin.mq(tab) {
+            display: block;
+        }
+    }
 }

@@ -270,6 +270,15 @@ th {
 .c-bk_foot {
   background: linear-gradient(to bottom, #531300, #AD6136);
 }
+.c-bk_sec2 {
+  background: linear-gradient(to bottom, #531300, #AD6136);
+}
+.c-bk_sec3 {
+  background: #F5E3C6;
+}
+.c-bk_white {
+  background-color: #fff;
+}
 
 .test {
   font-size: 6px;
@@ -279,8 +288,69 @@ th {
   font-size: 7px;
 }
 
-.test {
-  font-size: 8px;
+.p-top_txtcnt {
+  text-align: center;
+}
+.p-top_lipadblc {
+  padding: 20px 10px !important;
+}
+.p-top_pady {
+  padding-block: 64px;
+}
+.p-top_padl14p {
+  padding-left: 14%;
+}
+.p-top_padmy14p {
+  padding-inline: 14%;
+}
+.p-top_padlb6414p {
+  padding-bottom: 64px;
+  padding-left: 14%;
+}
+
+.u-disp_flexblock {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .u-disp_flexblock {
+    display: block;
+  }
+}
+
+.u-m_mb64 {
+  margin-bottom: 64px;
+}
+.u-m_mt64 {
+  margin-top: 64px;
+}
+.u-m_mt5 {
+  margin-top: 5px;
+}
+
+.u-txt_color1 {
+  color: #fff;
+}
+.u-txt_size16 {
+  font-size: 1.6rem;
+}
+.u-txt_size20 {
+  font-size: 2rem;
+}
+.u-txt_size24 {
+  font-size: 2.4rem;
+}
+.u-txt_size40 {
+  font-size: 4rem;
+}
+.u-txt_center {
+  text-align: center;
+}
+
+.u-w_inner {
+  width: 920px;
+}
+.u-w_sec2list {
+  width: 391px;
 }
 
 /*Foundation*/

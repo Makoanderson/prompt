@@ -5,4 +5,17 @@
     &_foot {
         background: linear-gradient(to bottom, #531300, #AD6136);
     }
+
+    &_sec2 {
+        background: variable.$grade1;
+    }
+
+    &_sec3 {
+        background: #F5E3C6;
+    }
+
+    &_white {
+        background-color: #fff;
+    }
+
 }
