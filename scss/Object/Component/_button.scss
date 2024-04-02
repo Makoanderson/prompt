@@ -1,6 +1,38 @@
 @use "../../Foundation/mixin";
 @use "../../Foundation/variable";
 
-.test {
-    font-size: 6px;
+.c-btn {
+    &_promo {
+        position: relative;
+    }
+
+    &_promo1 {
+        position: absolute;
+        bottom: 10px;
+        left: 390px;
+    }
+
+    &_promo2 {
+        width: 200px;
+        padding: 0px !important;
+        font-size: 1.2rem;
+        text-align: center;
+        position: absolute;
+        top: 85px;
+        left: 115px;
+    }
+
+    &_promo3 {
+        position: absolute;
+        bottom: 25px;
+        left: 30px;
+    }
+
+    &_promo4 {
+        position: absolute;
+        width: 115px;
+        bottom: 13px;
+        left: 270px;
+        font-size: 1.2rem;
+    }
 }

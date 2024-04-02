@@ -10,7 +10,7 @@
         <p class="p-ft_psec3">一緒にお店の運用を良くしていきましょう。</p>
         <img src="<?php echo esc_url(
                   get_template_directory_uri()
-                ); ?>/img/source/logo.webp" alt="プロンプ" class="img is-mp">
+                ); ?>/img/source/logo.webp"alt="プロンプ" class="img is-mp">
     </figure>
   </article>
 </footer>

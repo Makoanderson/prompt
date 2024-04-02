@@ -276,16 +276,69 @@ th {
 .c-bk_sec3 {
   background: #F5E3C6;
 }
+.c-bk_sec4 {
+  background: #e9cba7;
+}
 .c-bk_white {
   background-color: #fff;
 }
+.c-bk_main {
+  background-color: #551501;
+}
+.c-bk_card {
+  background: url(../img/pc/SupportBox.webp) 100% 100% no-repeat;
+  padding: 60px 15px;
+  width: 445px;
+  height: 555px;
+}
 
-.test {
-  font-size: 6px;
+.c-btn_promo {
+  position: relative;
+}
+.c-btn_promo1 {
+  position: absolute;
+  bottom: 10px;
+  left: 390px;
+}
+.c-btn_promo2 {
+  width: 200px;
+  padding: 0px !important;
+  font-size: 1.2rem;
+  text-align: center;
+  position: absolute;
+  top: 85px;
+  left: 115px;
+}
+.c-btn_promo3 {
+  position: absolute;
+  bottom: 25px;
+  left: 30px;
+}
+.c-btn_promo4 {
+  position: absolute;
+  width: 115px;
+  bottom: 13px;
+  left: 270px;
+  font-size: 1.2rem;
 }
 
 .test {
   font-size: 7px;
+}
+
+.p-sup_img {
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.p-sup_title {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #ae4627;
+}
+.p-sup_disc {
+  font-size: 1.6rem;
+  color: #3f3c39;
+  margin-top: 30px;
 }
 
 .p-top_txtcnt {
@@ -326,6 +379,9 @@ th {
 .u-m_mt5 {
   margin-top: 5px;
 }
+.u-m_mya {
+  margin-inline: auto;
+}
 
 .u-txt_color1 {
   color: #fff;
@@ -351,6 +407,9 @@ th {
 }
 .u-w_sec2list {
   width: 391px;
+}
+.u-w_boxinner {
+  max-width: 1440px;
 }
 
 /*Foundation*/

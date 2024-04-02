@@ -14,8 +14,22 @@
         background: #F5E3C6;
     }
 
+    &_sec4 {
+        background: #e9cba7;
+    }
+
     &_white {
         background-color: #fff;
     }
 
+    &_main {
+        background-color: #551501;
+    }
+
+    &_card {
+        background: url(../img/pc/SupportBox.webp) 100% 100% no-repeat;
+        padding: 60px 15px;
+        width: 445px;
+        height: 555px;
+    }
 }
