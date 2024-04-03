@@ -288,7 +288,7 @@ th {
 }
 .c-bk_card {
   background: url(../img/pc/SupportBox.webp) 100% 100% no-repeat;
-  padding: 60px 15px;
+  padding: 60px 22px;
   width: 445px;
   height: 555px;
 }
@@ -333,6 +333,19 @@ th {
 
 .p-f_txtalign {
   text-align: center;
+}
+
+.p-solu_card {
+  border-radius: 10px;
+  padding-left: 20px;
+  height: 270px;
+}
+@media screen and (max-width: 768px) {
+  .p-solu_card {
+    width: 345px;
+    height: 100%;
+    padding-block: 30px;
+  }
 }
 
 .p-sup_img {
@@ -413,6 +426,12 @@ th {
   }
 }
 
+.u-m_mb25 {
+  margin-bottom: 25px;
+}
+.u-m_mb45 {
+  margin-bottom: 45px;
+}
 .u-m_mb60 {
   margin-bottom: 60px;
 }
@@ -425,12 +444,27 @@ th {
 .u-m_mt5 {
   margin-top: 5px;
 }
+.u-m_mb95 {
+  margin-bottom: 95px;
+}
 .u-m_mya {
   margin-inline: auto !important;
 }
+.u-m_mx0 {
+  margin-inline: 0 !important;
+}
 
 .u-txt_color1 {
-  color: #fff;
+  color: #FFFFFF;
+}
+.u-txt_color2 {
+  color: #3F3C39;
+}
+.u-txt_color3 {
+  color: #AE4627;
+}
+.u-txt_color4 {
+  color: #551501;
 }
 .u-txt_size16 {
   font-size: 1.6rem;
@@ -457,6 +491,11 @@ th {
 .u-w_inner {
   width: 920px;
 }
+@media screen and (max-width: 768px) {
+  .u-w_inner2 {
+    width: 345px;
+  }
+}
 .u-w_sec2list {
   width: 391px;
 }
@@ -466,6 +505,13 @@ th {
 }
 .u-w_supbar {
   width: 1079px;
+}
+.u-w_cardtitle {
+  width: 338px;
+  margin-bottom: 25px !important;
+}
+.u-w_cardtxt {
+  width: 355px;
 }
 
 /*Foundation*/

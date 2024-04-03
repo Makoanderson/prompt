@@ -2,6 +2,14 @@
 @use "../../Foundation/variable";
 
 .u-m {
+    &_mb25 {
+        margin-bottom: 25px;
+    }
+
+    &_mb45 {
+        margin-bottom: 45px;
+    }
+
     &_mb60 {
         margin-bottom: 60px;
     }
@@ -18,7 +26,15 @@
         margin-top: 5px;
     }
 
+    &_mb95 {
+        margin-bottom: 95px;
+    }
+
     &_mya {
         margin-inline: auto !important;
+    }
+
+    &_mx0 {
+        margin-inline: 0 !important;
     }
 }

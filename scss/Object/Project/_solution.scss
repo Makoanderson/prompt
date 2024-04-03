@@ -1,0 +1,16 @@
+@use "../../Foundation/mixin";
+@use "../../Foundation/variable";
+
+.p-solu {
+    &_card {
+        border-radius: 10px;
+        padding-left: 20px;
+        height: 270px;
+
+        @include mixin.mq(tab) {
+            width: 345px;
+            height: 100%;
+            padding-block: 30px;
+        }
+    }
+}

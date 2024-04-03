@@ -3,7 +3,19 @@
 
 .u-txt {
     &_color1 {
-        color: #fff;
+        color: variable.$color1;
+    }
+
+    &_color2 {
+        color: variable.$color2;
+    }
+
+    &_color3 {
+        color: variable.$color3;
+    }
+
+    &_color4 {
+        color: variable.$color4;
     }
 
     &_size16 {

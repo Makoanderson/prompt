@@ -6,6 +6,13 @@
         width: 920px;
     }
 
+    &_inner2 {
+        @include mixin.mq(tab) {
+            width: 345px;
+        }
+    }
+
+
     &_sec2list {
         width: 391px;
     }
@@ -17,5 +24,14 @@
 
     &_supbar {
         width: 1079px;
+    }
+
+    &_cardtitle {
+        width: 338px;
+        margin-bottom: 25px !important;
+    }
+
+    &_cardtxt {
+        width: 355px;
     }
 }
