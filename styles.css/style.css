@@ -9,6 +9,7 @@ a {
 body {
   overflow-x: hidden;
   margin: 0 !important;
+  font-family: "Noto Serif JP", serif;
 }
 
 /*! destyle.css v4.0.0 | MIT License | https://github.com/nicolas-cusan/destyle.min.css */
@@ -340,6 +341,15 @@ th {
   color: #3f3c39;
   margin-top: 30px;
 }
+.p-sup_lablebase {
+  position: relative;
+  left: -68px;
+}
+.p-sup_lablefont {
+  position: absolute;
+  top: 90px;
+  left: 155px;
+}
 
 .p-top_txtcnt {
   text-align: center;
@@ -369,7 +379,19 @@ th {
     display: block;
   }
 }
+.u-disp_flexwpblock {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .u-disp_flexwpblock {
+    display: block;
+  }
+}
 
+.u-m_mb60 {
+  margin-bottom: 60px;
+}
 .u-m_mb64 {
   margin-bottom: 64px;
 }
@@ -395,8 +417,14 @@ th {
 .u-txt_size24 {
   font-size: 2.4rem;
 }
+.u-txt_size32 {
+  font-size: 3.2rem;
+}
 .u-txt_size40 {
   font-size: 4rem;
+}
+.u-txt_size48 {
+  font-size: 4.8rem;
 }
 .u-txt_center {
   text-align: center;
@@ -410,6 +438,10 @@ th {
 }
 .u-w_boxinner {
   max-width: 1440px;
+  overflow-x: hidden;
+}
+.u-w_supbar {
+  width: 1079px;
 }
 
 /*Foundation*/

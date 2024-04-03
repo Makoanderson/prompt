@@ -9,4 +9,13 @@
             display: block;
         }
     }
+
+    &_flexwpblock {
+        display: flex;
+        flex-wrap: wrap;
+
+        @include mixin.mq(tab) {
+            display: block;
+        }
+    }
 }

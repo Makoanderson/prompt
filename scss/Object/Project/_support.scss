@@ -18,4 +18,15 @@
         color: #3f3c39;
         margin-top: 30px;
     }
+
+    &_lablebase {
+        position: relative;
+        left: -68px;
+    }
+
+    &_lablefont {
+        position: absolute;
+        top: 90px;
+        left: 155px;
+    }
 }

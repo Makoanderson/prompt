@@ -12,5 +12,10 @@
 
     &_boxinner {
         max-width: 1440px;
+        overflow-x: hidden;
+    }
+
+    &_supbar {
+        width: 1079px;
     }
 }

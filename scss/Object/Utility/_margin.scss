@@ -2,6 +2,10 @@
 @use "../../Foundation/variable";
 
 .u-m {
+    &_mb60 {
+        margin-bottom: 60px;
+    }
+
     &_mb64 {
         margin-bottom: 64px;
     }
