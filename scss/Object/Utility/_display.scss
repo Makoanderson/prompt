@@ -18,4 +18,18 @@
             display: block;
         }
     }
+
+    &_noneblock {
+        display: none;
+
+        @include mixin.mq(tab) {
+            display: block;
+        }
+    }
+
+    &_blocknone {
+        @include mixin.mq(tab) {
+            display: none;
+        }
+    }
 }

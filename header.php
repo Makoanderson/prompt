@@ -8,7 +8,7 @@
   <?php wp_head(); ?>
 </head>
 
-<body>
+<body class="c-bk_main">
   <?php /*wp_body_open(); */?>
   <!-- <header class="l-header c-flex--justBetween p-header u-width--100vw">
     <a  class="c-logo__parent" href="<?php //echo esc_url(home_url('/')); ?>">
