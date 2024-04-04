@@ -35,4 +35,34 @@
         left: 270px;
         font-size: 1.2rem;
     }
+
+    &_promo5 {
+        position: absolute;
+        bottom: 8px;
+        left: 285px;
+    }
+
+    &_promo6 {
+        width: 200px;
+        padding: 0px !important;
+        font-size: 1.2rem;
+        text-align: center;
+        position: absolute;
+        top: 53px;
+        left: 64px;
+    }
+
+    &_promo7 {
+        position: absolute;
+        bottom: 23px;
+        left: 30px;
+    }
+
+    &_promo8 {
+        position: absolute;
+        width: 115px;
+        bottom: 13px;
+        left: 170px;
+        font-size: 1.2rem;
+    }
 }

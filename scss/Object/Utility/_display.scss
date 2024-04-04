@@ -32,4 +32,38 @@
             display: none;
         }
     }
+
+    &_blocknonesp {
+        @include mixin.mq(sp) {
+            display: none;
+        }
+    }
+
+    &_noneblocksp {
+        display: none;
+
+        @include mixin.mq(sp) {
+            display: block;
+        }
+    }
+
+    &_noneblknone {
+        display: none;
+
+        @include mixin.mq(tab) {
+            display: block;
+        }
+
+        @include mixin.mq(sm) {
+            display: none;
+        }
+    }
+
+    &_noneblocksm {
+        display: none;
+
+        @include mixin.mq(sm) {
+            display: block;
+        }
+    }
 }
