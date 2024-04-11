@@ -27,6 +27,14 @@
         font-size: 1.6rem;
     }
 
+    &_size16tab12 {
+        font-size: 1.6rem;
+
+        @include mixin.mq(tab) {
+            font-size: 1.2rem;
+        }
+    }
+
     &_size16tab12b {
         font-size: 1.6rem;
         font-weight: bold;
@@ -67,6 +75,16 @@
 
     &_size32 {
         font-size: 3.2rem;
+    }
+
+    &_size32tab24 {
+        font-size: 3.2rem;
+        font-weight: bold;
+
+        @include mixin.mq(tab) {
+            font-size: 2.4rem;
+            font-weight: bold;
+        }
     }
 
     &_size40 {

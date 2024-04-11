@@ -4,13 +4,100 @@
 .p-solu {
     &_card {
         border-radius: 10px;
-        padding-left: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
         height: 270px;
 
         @include mixin.mq(tab) {
             width: 345px;
             height: 100%;
             padding-block: 30px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    }
+
+    &_cardp {
+        line-height: 26px;
+    }
+
+    &_cardimg2 {
+        width: 360px;
+        //padding-left: 70px;
+        margin-top: 32px;
+
+        @include mixin.mq(tab) {
+            width: initial;
+            padding-left: initial;
+            padding-inline: 37px;
+        }
+
+        img {
+            width: 360px;
+
+            @include mixin.mq(tab) {
+                width: 319.09px;
+            }
+        }
+    }
+
+    &_cardimg3 {
+        width: 360px;
+        padding-left: 10px;
+        margin-top: 32px;
+
+        @include mixin.mq(tab) {
+            width: initial;
+            padding-left: initial;
+            padding-inline: 37px;
+        }
+
+        p {
+            width: 144px;
+            line-height: 26px;
+            margin-top: 80px;
+            padding-left: 10px;
+
+            @include mixin.mq(tab) {
+                margin-top: 32px;
+            }
+        }
+    }
+
+    &_cardimg4 {
+        width: 360px;
+        padding-left: 70px;
+        margin-top: 10px;
+
+        @include mixin.mq(tab) {
+            width: initial;
+            padding-left: initial;
+            padding-inline: 37px;
+        }
+    }
+
+    &_cardimg5 {
+        width: 360px;
+        padding-left: 70px;
+        margin-top: 32px;
+
+        @include mixin.mq(tab) {
+            width: initial;
+            padding-left: initial;
+            padding-inline: 37px;
+            margin-inline: 11%;
+        }
+    }
+
+    &_cardimg1 {
+        width: 360px;
+        padding-left: 70px;
+        margin-top: 10px;
+
+        @include mixin.mq(tab) {
+            width: initial;
+            padding-left: initial;
+            padding-inline: 37px;
         }
     }
 }

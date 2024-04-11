@@ -1,0 +1,24 @@
+@use "../../Foundation/mixin";
+@use "../../Foundation/variable";
+
+.wp-image-114,
+.wp-image-115,
+.wp-image-116,
+.wp-image-117,
+.wp-image-118 {
+    margin-left: -15%;
+    margin-top: 32px;
+
+    @include mixin.mq(tab) {
+        margin-left: 0%;
+    }
+}
+
+.wp-image-244 {
+    margin-inline-start: 40px;
+    margin-block: 10px;
+
+    @include mixin.mq(tab) {
+        margin-block: 0px;
+    }
+}

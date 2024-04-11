@@ -8,7 +8,10 @@
 
     &_txtcnt2 {
         text-align: center;
-        padding: 1.6em 2.375em 1.25em !important;
+
+        @include mixin.mq(tab) {
+            padding: 1.6em 2.375em 1.25em !important;
+        }
     }
 
     &_lipadblc {
@@ -27,9 +30,31 @@
         padding-inline: 14%;
     }
 
+    &_padmy45ptab39p {
+        padding-inline: 45%;
+
+        @include mixin.mq(tab) {
+            padding-inline: 39%;
+        }
+    }
+
+    &_padmy14ptab0 {
+        padding-inline: 14%;
+
+        @include mixin.mq(tab) {
+            padding-inline: 0;
+            width: 345px;
+        }
+    }
+
     &_padlb6414p {
         padding-bottom: 64px;
         padding-left: 14%;
+
+        @include mixin.mq(tab) {
+            padding-left: 0;
+            width: 345px;
+        }
     }
 
     &_rela {

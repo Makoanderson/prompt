@@ -58,8 +58,40 @@
         margin-top: 21px;
     }
 
+    &_mt32tabmy32 {
+        margin-top: 32px !important;
+
+        @include mixin.mq(tab) {
+            margin-bottom: 32px !important;
+        }
+    }
+
     &_ml16 {
         margin-left: 16px;
+    }
+
+    &_mlm16tab0 {
+        margin-left: -16px !important;
+
+        @include mixin.mq(tab) {
+            margin-left: 0 !important;
+        }
+    }
+
+    &_mlm82tab0 {
+        margin-left: -82px !important;
+
+        @include mixin.mq(tab) {
+            margin-left: 0 !important;
+        }
+    }
+
+    &_mlm50ptab35p {
+        margin-left: -50%;
+
+        @include mixin.mq(tab) {
+            margin-left: 35%;
+        }
     }
 
     &_mb95 {
@@ -71,7 +103,8 @@
     }
 
     &_mx0 {
-        margin-inline: 0 !important;
+        margin-left: 1px !important;
+        margin-right: 1px !important;
     }
 
     &_my10 {

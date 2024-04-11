@@ -40,10 +40,18 @@
     &_cardtitle {
         width: 338px;
         margin-bottom: 25px !important;
+
+        @include mixin.mq(tab) {
+            width: initial;
+        }
     }
 
     &_cardtxt {
         width: 355px;
+
+        @include mixin.mq(tab) {
+            width: initial;
+        }
     }
 
     &_bannergrp {
@@ -56,11 +64,21 @@
         }
     }
 
+    &_320tab {
+        @include mixin.mq(tab) {
+            width: 320px;
+        }
+    }
+
     &_330 {
         width: 330px;
     }
 
     &_336 {
         width: 336px;
+    }
+
+    &_num {
+        width: 78px;
     }
 }
