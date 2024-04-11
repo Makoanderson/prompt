@@ -18,16 +18,51 @@
         color: variable.$color4;
     }
 
+    &_size10b {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
     &_size16 {
         font-size: 1.6rem;
+    }
+
+    &_size16tab12b {
+        font-size: 1.6rem;
+        font-weight: bold;
+
+        @include mixin.mq(tab) {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
     }
 
     &_size20 {
         font-size: 2rem;
     }
 
+    &_size20tab16 {
+        font-size: 2rem;
+        font-weight: bold;
+
+        @include mixin.mq(tab) {
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+    }
+
     &_size24 {
         font-size: 2.4rem;
+    }
+
+    &_size24tab20 {
+        font-size: 2.4rem;
+        font-weight: bold;
+
+        @include mixin.mq(tab) {
+            font-size: 20px;
+            font-weight: bold;
+        }
     }
 
     &_size32 {
@@ -38,6 +73,26 @@
         font-size: 4rem;
     }
 
+    &_size40tab20b {
+        font-size: 4rem;
+        font-weight: bold;
+
+        @include mixin.mq(tab) {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    }
+
+    &_size40tab36b {
+        font-size: 4rem;
+        font-weight: bold;
+
+        @include mixin.mq(tab) {
+            font-size: 3.6rem;
+            font-weight: bold;
+        }
+    }
+
     &_size48 {
         font-size: 4.8rem;
     }
@@ -46,4 +101,27 @@
         text-align: center;
     }
 
+    &_mvline {
+        color: variable.$color1;
+        font-size: clamp(1.6rem, -2.03776rem + 4.7244vw, 2.8rem);
+        font-weight: bold;
+    }
+
+    &_mvline2 {
+        color: variable.$color1;
+        font-size: clamp(2.4rem, 1.18736rem + 1.5748vw, 2.8rem);
+        font-weight: bold;
+    }
+
+    &_mvlinetab {
+        @include mixin.mq(tab) {
+            color: variable.$color1;
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+    }
+
+    &_shadow {
+        text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.35), 2px 0 10px rgba(255, 255, 255, 0.52), 2px 0 10px rgba(255, 255, 255, 0.56);
+    }
 }

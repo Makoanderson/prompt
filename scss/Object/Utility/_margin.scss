@@ -2,6 +2,18 @@
 @use "../../Foundation/variable";
 
 .u-m {
+    &_mb5 {
+        margin-bottom: 5px;
+    }
+
+    &_mb7 {
+        margin-bottom: 7px;
+    }
+
+    &_mb12 {
+        margin-bottom: 12px;
+    }
+
     &_mb25 {
         margin-bottom: 25px;
     }
@@ -18,12 +30,36 @@
         margin-bottom: 64px !important;
     }
 
+    &_mb64tab32 {
+        margin-bottom: 64px !important;
+
+        @include mixin.mq(tab) {
+            margin-bottom: 32px !important;
+        }
+    }
+
     &_mt64 {
         margin-top: 64px;
     }
 
+    &_mt64tab32 {
+        margin-top: 64px;
+
+        @include mixin.mq(tab) {
+            margin-top: 32px;
+        }
+    }
+
     &_mt5 {
         margin-top: 5px;
+    }
+
+    &_mt21 {
+        margin-top: 21px;
+    }
+
+    &_ml16 {
+        margin-left: 16px;
     }
 
     &_mb95 {
@@ -36,5 +72,13 @@
 
     &_mx0 {
         margin-inline: 0 !important;
+    }
+
+    &_my10 {
+        margin-block: 10px;
+    }
+
+    &_my24 {
+        margin-block: 24px;
     }
 }

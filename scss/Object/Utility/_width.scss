@@ -4,6 +4,16 @@
 .u-w {
     &_inner {
         width: 920px;
+        max-width: 920px;
+        margin-inline: auto;
+
+        @include mixin.mq(tab) {
+            width: 400px;
+        }
+
+        @include mixin.mq(sp) {
+            width: 345px;
+        }
     }
 
     &_inner2 {
@@ -12,9 +22,10 @@
         }
     }
 
-
     &_sec2list {
         width: 391px;
+        border-radius: 6px;
+        margin-bottom: 10px !important;
     }
 
     &_boxinner {
@@ -33,5 +44,23 @@
 
     &_cardtxt {
         width: 355px;
+    }
+
+    &_bannergrp {
+        max-width: 900px !important;
+    }
+
+    &_toplogo2 {
+        @include mixin.mq(lpc) {
+            width: clamp(19.691rem, 4.0337rem + 35.2989vw, 42.6rem);
+        }
+    }
+
+    &_330 {
+        width: 330px;
+    }
+
+    &_336 {
+        width: 336px;
     }
 }

@@ -1,6 +1,14 @@
 @use "../Foundation/mixin";
 @use "../Foundation/variable";
 
-.test {
-    font-size: 1px;
+.l-header {
+    &_logo {
+        width: 165px;
+        height: 51.77px;
+    }
+
+    &_logoimg {
+        width: 130px;
+        height: 30.4px;
+    }
 }

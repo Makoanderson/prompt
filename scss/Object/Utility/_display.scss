@@ -19,11 +19,25 @@
         }
     }
 
+    &_noneblocklpc {
+        display: none;
+
+        @include mixin.mq(lpc) {
+            display: block;
+        }
+    }
+
     &_noneblock {
         display: none;
 
         @include mixin.mq(tab) {
             display: block;
+        }
+    }
+
+    &_blocknonelpc {
+        @include mixin.mq(lpc) {
+            display: none;
         }
     }
 

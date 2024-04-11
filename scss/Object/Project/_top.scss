@@ -6,6 +6,11 @@
         text-align: center;
     }
 
+    &_txtcnt2 {
+        text-align: center;
+        padding: 1.6em 2.375em 1.25em !important;
+    }
+
     &_lipadblc {
         padding: 20px 10px !important;
     }
@@ -25,5 +30,97 @@
     &_padlb6414p {
         padding-bottom: 64px;
         padding-left: 14%;
+    }
+
+    &_rela {
+        position: relative;
+    }
+
+    &_abso {
+        position: absolute;
+    }
+
+    &_imgsize {
+        max-width: 1440px;
+        margin-inline: auto;
+    }
+
+    &_linegroup {
+        bottom: 0;
+    }
+
+    &_linelogo {
+        position: absolute;
+        left: clamp(6rem, -43.23072rem + 48.0769vw, 26rem);
+        bottom: clamp(0.5rem, -3.19232rem + 3.6058vw, 2rem);
+        width: 512px;
+
+        @include mixin.mq(tab) {
+            width: 0px;
+        }
+    }
+
+    &_prombanner {
+        position: absolute;
+        //right: clamp(-95rem, -45.76928rem + -48.0769vw, -115rem);
+        left: clamp(51.2rem, 1.23072rem + 48.7981vw, 71.5rem);
+        bottom: clamp(1rem, -3.92304rem + 4.8077vw, 3rem);
+        width: 440px;
+    }
+
+    &_logoimg1 {
+        //margin-left: -16px !important;
+        //margin-left: 3px !important;
+        margin-bottom: clamp(-1.7rem, -5.88464rem + 4.0865vw, 0rem);
+        width: clamp(43rem, 30.69232rem + 12.0192vw, 48rem);
+
+        @include mixin.mq(lpc) {
+            width: clamp(29.8rem, -10.21568rem + 51.9685vw, 43rem);
+            //margin-inline: 0px !important;
+        }
+
+        img {
+            margin-left: -40px !important;
+
+            @include mixin.mq(lpc) {
+                //margin-left: -120px !important;
+                margin-left: clamp(-12rem, -36.252rem + 31.4961vw, 4rem) !important;
+            }
+        }
+    }
+
+    &_logoimg2 {
+        margin-top: clamp(2rem, -5.38464rem + 7.2115vw, 5rem);
+
+        img {
+            @include mixin.mq(lpc) {
+                margin-left: clamp(-10.0109rem, -23.60048rem + 17.6488vw, -5.5281rem) !important;
+            }
+        }
+    }
+
+    &_logoimg3 {
+        //margin-left: -16px !important;
+        //margin-left: 3px !important;
+        margin-bottom: clamp(-1.7rem, -5.88464rem + 4.0865vw, 0rem);
+        width: clamp(43rem, 30.69232rem + 12.0192vw, 48rem);
+
+        @include mixin.mq(lpc) {
+            width: clamp(29.8rem, -10.21568rem + 51.9685vw, 43rem);
+            //margin-inline: 0px !important;
+        }
+
+        img {
+            margin-left: -30px !important;
+        }
+    }
+
+    &_logoimg4 {
+        @include mixin.mq(tab) {
+            position: absolute;
+            width: clamp(19.691rem, -2.05808rem + 57.9975vw, 42.6rem);
+            top: clamp(18.5rem, 10.4304rem + 21.519vw, 27rem);
+            left: 10px;
+        }
     }
 }
