@@ -292,7 +292,7 @@ th {
   background-color: #551501;
 }
 .c-bk_card {
-  background: url(../img/pc/SupportBox.webp) 100% 100% no-repeat;
+  background: url(../img/pc/SupportBox.webp) 50% 100% no-repeat;
   padding: 60px 22px;
   width: 445px;
   height: 555px;
@@ -394,6 +394,11 @@ th {
 .p-f_txtalign {
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .p-f_txtalign {
+    text-align: initial;
+  }
+}
 
 .p-solu_card {
   border-radius: 10px;
@@ -469,26 +474,26 @@ th {
 }
 .p-solu_cardimg5 {
   width: 360px;
-  padding-left: 70px;
+  padding-left: 0px !important;
   margin-top: 32px;
 }
 @media screen and (max-width: 768px) {
   .p-solu_cardimg5 {
     width: initial;
-    padding-left: initial;
+    padding-left: 70px !important;
     padding-inline: 37px;
     margin-inline: 11%;
   }
 }
 .p-solu_cardimg1 {
   width: 360px;
-  padding-left: 70px;
+  padding-left: 0px !important;
   margin-top: 10px;
 }
 @media screen and (max-width: 768px) {
   .p-solu_cardimg1 {
     width: initial;
-    padding-left: initial;
+    padding-left: 70px !important;
     padding-inline: 37px;
   }
 }
@@ -742,6 +747,14 @@ th {
 .u-m_mb60 {
   margin-bottom: 60px;
 }
+.u-m_mb60tab24 {
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 768px) {
+  .u-m_mb60tab24 {
+    margin-bottom: 24px;
+  }
+}
 .u-m_mb64 {
   margin-bottom: 64px !important;
 }
@@ -820,6 +833,14 @@ th {
 }
 .u-m_my24 {
   margin-block: 24px;
+}
+@media screen and (max-width: 768px) {
+  .u-m_my24tab {
+    margin-block: 24px;
+  }
+}
+.u-m_mx20p {
+  margin-inline: 20%;
 }
 
 .u-txt_color1 {
@@ -1018,6 +1039,14 @@ th {
 }
 .u-w_num {
   width: 78px;
+}
+.u-w_420tab341 {
+  width: 420px;
+}
+@media screen and (max-width: 768px) {
+  .u-w_420tab341 {
+    width: 341px;
+  }
 }
 
 .u-h_50 {

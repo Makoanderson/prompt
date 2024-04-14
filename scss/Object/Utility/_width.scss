@@ -81,4 +81,12 @@
     &_num {
         width: 78px;
     }
+
+    &_420tab341 {
+        width: 420px;
+
+        @include mixin.mq(tab) {
+            width: 341px;
+        }
+    }
 }

@@ -4,5 +4,9 @@
 .p-f {
     &_txtalign {
         text-align: center;
+
+        @include mixin.mq(tab) {
+            text-align: initial;
+        }
     }
 }

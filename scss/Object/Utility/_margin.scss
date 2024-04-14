@@ -26,6 +26,14 @@
         margin-bottom: 60px;
     }
 
+    &_mb60tab24 {
+        margin-bottom: 60px;
+
+        @include mixin.mq(tab) {
+            margin-bottom: 24px;
+        }
+    }
+
     &_mb64 {
         margin-bottom: 64px !important;
     }
@@ -113,5 +121,15 @@
 
     &_my24 {
         margin-block: 24px;
+    }
+
+    &_my24tab {
+        @include mixin.mq(tab) {
+            margin-block: 24px;
+        }
+    }
+
+    &_mx20p {
+        margin-inline: 20%;
     }
 }
