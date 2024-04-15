@@ -1,0 +1,46 @@
+@use "../../Foundation/mixin";
+@use "../../Foundation/variable";
+
+.p-plan {
+    &_inner {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+
+    &_txtalign {
+        text-align: center;
+    }
+
+    &_listyle {
+        list-style-type: disc;
+    }
+
+    &_lileft {
+        padding-top: 20px;
+        padding-bottom: 26px;
+        padding-inline: 16px;
+
+        @include mixin.mq(tab) {
+            padding-inline: 5px;
+        }
+    }
+
+    &_limitmark {
+        width: 58px;
+        height: 18px;
+        padding: initial !important;
+        padding-top: 3px !important;
+        margin-bottom: 5px;
+    }
+
+    &_liinner {
+        margin-top: 20px;
+        line-height: 26px;
+        padding-left: 16px;
+
+        @include mixin.mq(tab) {
+            line-height: 22px;
+            padding-left: 16px;
+        }
+    }
+}

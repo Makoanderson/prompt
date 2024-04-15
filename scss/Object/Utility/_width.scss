@@ -82,11 +82,87 @@
         width: 78px;
     }
 
-    &_420tab341 {
-        width: 420px;
+    &_640tab341 {
+        width: 640px;
 
         @include mixin.mq(tab) {
             width: 341px;
+        }
+    }
+
+    &_440 {
+        width: 440px;
+    }
+
+    &_headfqa {
+        width: 458.81px;
+
+        @include mixin.mq(tab) {
+            width: 291.37px;
+        }
+    }
+
+    &_headsup {
+        width: 543px;
+
+        @include mixin.mq(tab) {
+            width: 346px;
+        }
+    }
+
+    &_ft-disc {
+        width: 495px;
+
+        @include mixin.mq(tab) {
+            width: 355px;
+        }
+    }
+
+    &_headplan {
+        width: 458.81px;
+
+        @include mixin.mq(tab) {
+            width: 345px;
+        }
+    }
+
+    &_plansign {
+        width: 590.38px;
+
+        @include mixin.mq(tab) {
+            width: 353.43px;
+        }
+    }
+
+    &_planlist {
+        width: 910px;
+
+        @include mixin.mq(tab) {
+            width: 364px;
+        }
+    }
+
+    &_planleft {
+        width: 184px;
+
+        @include mixin.mq(tab) {
+            width: 146px;
+        }
+    }
+
+    &_planright {
+        width: 662px;
+
+        @include mixin.mq(tab) {
+            width: 186px;
+        }
+    }
+
+    &_plancom {
+        width: 164px;
+
+        @include mixin.mq(tab) {
+            width: 128px;
         }
     }
 }

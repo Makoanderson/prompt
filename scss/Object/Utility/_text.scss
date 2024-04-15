@@ -23,6 +23,14 @@
         font-weight: bold;
     }
 
+    &_size14tab12 {
+        font-size: 1.4rem;
+
+        @include mixin.mq(tab) {
+            font-size: 1.2rem;
+        }
+    }
+
     &_size16 {
         font-size: 1.6rem;
     }
@@ -41,6 +49,16 @@
 
         @include mixin.mq(tab) {
             font-size: 1.2rem;
+            font-weight: bold;
+        }
+    }
+
+    &_size18tab14b {
+        font-size: 1.8rem;
+        font-weight: bold;
+
+        @include mixin.mq(tab) {
+            font-size: 1.4rem;
             font-weight: bold;
         }
     }
@@ -97,6 +115,16 @@
 
         @include mixin.mq(tab) {
             font-size: 2rem;
+            font-weight: bold;
+        }
+    }
+
+    &_size40tab32b {
+        font-size: 4rem;
+        font-weight: bold;
+
+        @include mixin.mq(tab) {
+            font-size: 3.2rem;
             font-weight: bold;
         }
     }

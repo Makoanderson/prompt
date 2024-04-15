@@ -11,7 +11,11 @@
     }
 
     &_mb12 {
-        margin-bottom: 12px;
+        margin-bottom: 12px !important;
+    }
+
+    &_mb15 {
+        margin-bottom: 15px !important;
     }
 
     &_mb25 {
@@ -26,8 +30,8 @@
         margin-bottom: 60px;
     }
 
-    &_mb60tab24 {
-        margin-bottom: 60px;
+    &_mb64tab24 {
+        margin-bottom: 64px;
 
         @include mixin.mq(tab) {
             margin-bottom: 24px;
@@ -123,13 +127,27 @@
         margin-block: 24px;
     }
 
-    &_my24tab {
+    &_my64tab24 {
+        margin-block: 64px;
+
         @include mixin.mq(tab) {
             margin-block: 24px;
         }
     }
 
+    &_mx15 {
+        margin-inline: 15px;
+    }
+
     &_mx20p {
         margin-inline: 20%;
+    }
+
+    &_mb40tab24 {
+        margin-bottom: 40px;
+
+        @include mixin.mq(tab) {
+            margin-bottom: 24px;
+        }
     }
 }

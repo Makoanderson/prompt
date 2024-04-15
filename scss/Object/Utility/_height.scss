@@ -9,4 +9,21 @@
     &_270 {
         height: 270px;
     }
+
+    &_planleft {
+        height: 301px;
+
+        @include mixin.mq(tab) {
+            height: 303px;
+        }
+    }
+
+    &_planright {
+        height: 89px;
+
+        @include mixin.mq(tab) {
+            height: 136.08px;
+        }
+
+    }
 }

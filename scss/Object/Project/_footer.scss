@@ -1,12 +1,12 @@
 @use "../../Foundation/mixin";
 @use "../../Foundation/variable";
 
-.p-f {
-    &_txtalign {
-        text-align: center;
+// .p-f {
+//     &_txtalign {
+//         text-align: center;
 
-        @include mixin.mq(tab) {
-            text-align: initial;
-        }
-    }
-}
+//         @include mixin.mq(tab) {
+//             text-align: initial;
+//         }
+//     }
+// }
