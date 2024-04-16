@@ -387,6 +387,10 @@ th {
   width: 1079px;
 }
 
+.wp-image-467 {
+  height: 72px;
+}
+
 .test {
   font-size: 7px;
 }
@@ -432,6 +436,39 @@ th {
     line-height: 22px;
     padding-left: 16px;
   }
+}
+.p-plan_liright-inner {
+  padding-block: 9.5px;
+  padding-inline: 15px;
+}
+.p-plan_liright-pra {
+  padding-block: 12px;
+  border-left: 2px dotted #ae4627;
+  margin-left: initial !important;
+  padding-left: 14.664px;
+  height: 41px;
+  margin-block: auto;
+}
+.p-plan_liright-pra2 {
+  padding-block: 12px;
+  margin-left: initial !important;
+  height: 41px;
+  margin-block: auto;
+}
+.p-plan_liright-pra3 {
+  padding-block: 12px;
+  margin-left: initial !important;
+  margin-right: initial !important;
+  height: 41px;
+  margin-block: auto;
+  padding-right: 16px;
+}
+.p-plan_liright-pra4 {
+  border-left: 2px dotted #ae4627;
+  margin-left: initial !important;
+  padding-left: 14.664px;
+  height: 41px;
+  margin-block: auto;
 }
 
 .p-solu_card {
