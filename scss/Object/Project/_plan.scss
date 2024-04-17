@@ -47,6 +47,10 @@
     &_liright-inner {
         padding-block: 9.5px;
         padding-inline: 15px;
+
+        @include mixin.mq(tab) {
+            padding: 10px 35px 20px 15px;
+        }
     }
 
     &_liright-pra {
@@ -56,6 +60,15 @@
         padding-left: 14.664px;
         height: 41px;
         margin-block: auto;
+
+        @include mixin.mq(tab) {
+            padding-block: initial;
+            border-left: initial;
+            padding-left: 0px;
+            height: 21px;
+            margin-block: none;
+            padding-top: 10px;
+        }
     }
 
     &_liright-pra2 {
@@ -76,6 +89,11 @@
         height: 41px;
         margin-block: auto;
         padding-right: 16px;
+
+        @include mixin.mq(tab) {
+            padding-block: 5px;
+            height: 21px;
+        }
     }
 
     &_liright-pra4 {
@@ -85,5 +103,77 @@
         padding-left: 14.664px;
         height: 41px;
         margin-block: auto;
+    }
+
+    &_liright-pra5 {
+        padding-block: 12px;
+        border-left: 2px dotted #ae4627;
+        margin-left: initial !important;
+        padding-left: 14.664px;
+        height: 41px;
+        margin-block: auto;
+
+        @include mixin.mq(tab) {
+            padding-block: initial;
+            border-left: initial;
+            padding-left: 0px;
+            height: 21px;
+            margin-block: none;
+            padding-top: 8px;
+        }
+    }
+
+    &_liright-pra6 {
+        padding-block: 12px;
+        border-left: 2px dotted #ae4627;
+        margin-left: initial !important;
+        padding-left: 14.664px;
+        height: 41px;
+        margin-block: auto;
+
+        @include mixin.mq(tab) {
+            padding-block: initial;
+            border-left: initial;
+            padding-left: 0px;
+            height: 21px;
+            margin-block: none;
+            padding-top: 13px;
+        }
+    }
+
+    &_liright-pra7 {
+        padding-block: 12px;
+        border-left: 2px dotted #ae4627;
+        margin-left: initial !important;
+        padding-left: 14.664px;
+        height: 41px;
+        margin-block: auto;
+
+        @include mixin.mq(tab) {
+            padding-block: initial;
+            border-left: initial;
+            padding-left: 0px;
+            height: 38px;
+            margin-block: none;
+            padding-top: 13px;
+            //padding-bottom: 10px;
+            line-height: 18px;
+        }
+    }
+
+    &_lititle1 {
+        padding-left: 200px;
+
+        @include mixin.mq(tab) {
+            padding-left: 61px;
+        }
+    }
+
+    &_lititle2 {
+        padding-left: 70px;
+    }
+
+    &_lititle3 {
+        padding-left: 115px;
     }
 }

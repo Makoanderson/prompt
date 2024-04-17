@@ -26,4 +26,13 @@
         }
 
     }
+
+    &_planright2 {
+        height: 89px;
+
+        @include mixin.mq(tab) {
+            height: 151px;
+        }
+
+    }
 }
