@@ -12,6 +12,7 @@
 
     &_sec3 {
         background: #F5E3C6;
+        background-image: url(../img/pc/img-backgroundillust03.webp);
     }
 
     &_sec4 {
@@ -31,9 +32,14 @@
         padding: 60px 22px;
         width: 445px;
         height: 555px;
+
+        @include mixin.mq(tab) {
+            background: url(../img/pc/SupportBox.webp) 100% 10% no-repeat;
+            background-size: contain;
+        }
     }
 
-    // &_spheader {
-    //     background-color: #60001c;
-    // }
+    &_strip {
+        background: url(../img/source/Contents05-suppurt.png);
+    }
 }

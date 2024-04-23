@@ -143,9 +143,16 @@
     &_logoimg4 {
         @include mixin.mq(tab) {
             position: absolute;
-            width: clamp(19.691rem, -2.05808rem + 57.9975vw, 42.6rem);
-            top: clamp(18.5rem, 10.4304rem + 21.519vw, 27rem);
-            left: 10px;
+            width: clamp(19.748rem, 8.78448rem + 29.1582vw, 31.178rem);
+            left: clamp(1rem, -5.71424rem + 17.8571vw, 5rem);
+            top: clamp(21rem, 10.44896rem + 28.0612vw, 32rem);
+        }
+
+        @include mixin.mq(sm) {
+            //position: absolute;
+            top: initial;
+            left: 16px;
+            bottom: 109.77px;
         }
     }
 

@@ -281,6 +281,7 @@ th {
 }
 .c-bk_sec3 {
   background: #F5E3C6;
+  background-image: url(../img/pc/img-backgroundillust03.webp);
 }
 .c-bk_sec4 {
   background: #e9cba7;
@@ -296,6 +297,15 @@ th {
   padding: 60px 22px;
   width: 445px;
   height: 555px;
+}
+@media screen and (max-width: 768px) {
+  .c-bk_card {
+    background: url(../img/pc/SupportBox.webp) 100% 10% no-repeat;
+    background-size: contain;
+  }
+}
+.c-bk_strip {
+  background: url(../img/source/Contents05-suppurt.png);
 }
 
 .c-btn_promo {
@@ -352,6 +362,65 @@ th {
   bottom: 13px;
   left: 170px;
   font-size: 1.2rem;
+}
+
+.accordion-container {
+  margin: 50px auto 0;
+  max-width: 300px;
+  width: 100%;
+}
+
+.accordion-list:not(:first-child) {
+  margin-top: 10px;
+}
+
+.accordion-title {
+  background: #DDD;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 20px 40px;
+  position: relative;
+}
+
+.accordion-title:before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 25px;
+  height: 2px;
+  width: 15px;
+  background: #333;
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion-title:after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 25px;
+  height: 2px;
+  width: 15px;
+  background: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion-title.open:before {
+  transform: rotate(180deg);
+}
+
+.accordion-title.open:after {
+  opacity: 0;
+}
+
+.accordion-text {
+  display: none;
+  padding: 0px;
+}
+
+.accordion-text.open {
+  display: block;
+  background-color: greenyellow;
 }
 
 .wp-image-114,
@@ -668,10 +737,20 @@ th {
   font-weight: bold;
   color: #ae4627;
 }
+@media screen and (max-width: 768px) {
+  .p-sup_title {
+    font-size: 2.328rem;
+  }
+}
 .p-sup_disc {
   font-size: 1.6rem;
   color: #3f3c39;
   margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .p-sup_disc {
+    font-size: 1.164rem;
+  }
 }
 .p-sup_lablebase {
   position: relative;
@@ -806,9 +885,16 @@ th {
 @media screen and (max-width: 768px) {
   .p-top_logoimg4 {
     position: absolute;
-    width: clamp(19.691rem, -2.05808rem + 57.9975vw, 42.6rem);
-    top: clamp(18.5rem, 10.4304rem + 21.519vw, 27rem);
-    left: 10px;
+    width: clamp(19.748rem, 8.78448rem + 29.1582vw, 31.178rem);
+    left: clamp(1rem, -5.71424rem + 17.8571vw, 5rem);
+    top: clamp(21rem, 10.44896rem + 28.0612vw, 32rem);
+  }
+}
+@media screen and (max-width: 375px) {
+  .p-top_logoimg4 {
+    top: initial;
+    left: 16px;
+    bottom: 109.77px;
   }
 }
 .p-top_list {
@@ -891,6 +977,9 @@ th {
   .u-disp_noneblocksm {
     display: block;
   }
+}
+.u-disp_none {
+  display: none;
 }
 
 .u-m_mb5 {
