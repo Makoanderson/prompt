@@ -11,12 +11,58 @@
     }
 
     &_sec3 {
-        background: #F5E3C6;
-        background-image: url(../img/pc/img-backgroundillust03.webp);
+        //background: #F5E3C6;
+        background-image: url(../img/source/bk-solution_pc.webp);
+        background-size: 100%;
+
+        @include mixin.mq(tab) {
+            background-image: url(../img/source/bk-solution_tab.webp);
+        }
     }
 
     &_sec4 {
-        background: #e9cba7;
+        background-image: url(../img/source/bk-howto_pc.webp);
+        background-size: 100%;
+
+        @include mixin.mq(tab) {
+            background-image: url(../img/source/bk-howto_tab.webp);
+        }
+    }
+
+    &_sec5 {
+        background-image: url(../img/source/bk-support_pc.webp);
+        background-size: 100%;
+
+        @include mixin.mq(tab) {
+            background-image: url(../img/source/bk-support_tab.webp);
+        }
+    }
+
+    &_sec6 {
+        background-image: url(../img/source/bk-flow_pc.webp);
+        background-size: 100%;
+
+        @include mixin.mq(tab) {
+            background-image: url(../img/source/bk-flow_tab.webp);
+        }
+    }
+
+    &_sec7 {
+        background-image: url(../img/source/bk-price_pc.webp);
+        background-size: 100%;
+
+        @include mixin.mq(tab) {
+            background-image: url(../img/source/bk-price_tab.webp);
+        }
+    }
+
+    &_sec8 {
+        background-image: url(../img/source/bk-faq_pc.webp);
+        background-size: 100%;
+
+        @include mixin.mq(tab) {
+            background-image: url(../img/source/bk-faq_tab.webp);
+        }
     }
 
     &_white {
@@ -36,6 +82,9 @@
         @include mixin.mq(tab) {
             background: url(../img/pc/SupportBox.webp) 100% 10% no-repeat;
             background-size: contain;
+            padding: 45px 20px 0px;
+            height: 400px;
+            margin-bottom: 16px;
         }
     }
 

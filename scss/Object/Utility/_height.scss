@@ -24,7 +24,6 @@
         @include mixin.mq(tab) {
             height: 136.08px;
         }
-
     }
 
     &_planright2 {
@@ -34,5 +33,21 @@
             height: 151px;
         }
 
+    }
+
+    &_plan {
+        height: 331.4px;
+
+        @include mixin.mq(tab) {
+            height: initial;
+        }
+    }
+
+    &_pricegp {
+        height: 386px;
+
+        @include mixin.mq(tab) {
+            height: 450px;
+        }
     }
 }

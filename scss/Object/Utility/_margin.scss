@@ -26,20 +26,36 @@
         margin-bottom: 45px;
     }
 
+    &_mb57tab13 {
+        margin-bottom: 57px;
+
+        @include mixin.mq(tab) {
+            margin-bottom: 13px;
+        }
+    }
+
     &_mb60 {
         margin-bottom: 60px;
     }
 
     &_mb64tab24 {
-        margin-bottom: 64px;
+        margin-bottom: 64px !important;
 
         @include mixin.mq(tab) {
-            margin-bottom: 24px;
+            margin-bottom: 24px !important;
         }
     }
 
     &_mb64 {
         margin-bottom: 64px !important;
+    }
+
+    &_mb64tab27 {
+        margin-bottom: 64px;
+
+        @include mixin.mq(tab) {
+            margin-bottom: 27.7px;
+        }
     }
 
     &_mb64tab32 {
